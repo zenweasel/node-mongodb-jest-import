@@ -1,0 +1,43 @@
+{
+  "name": "jest-mocking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/compat-data": "^7.15.0",
+    "@babel/core": "^7.15.5",
+    "@babel/plugin-proposal-throw-expressions": "^7.14.5",
+    "@babel/preset-env": "^7.15.6",
+    "@reactioncommerce/eslint-config": "^2.2.0",
+    "babel-eslint": "^10.0.3",
+    "babel-jest": "^27.1.1",
+    "eslint": "^7.32.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-jest": "^24.4.0",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "eslint-plugin-react": "^7.25.1",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "graphql-schema-linter": "~2.0.1",
+    "jest": "^27.1.1",
+    "jest-date-mock": "^1.0.8",
+    "lerna": "^4.0.0",
+    "mockdate": "^3.0.5",
+    "mongodb": "^4.1.1",
+    "mongodb-memory-server-global": "^7.4.0"
+  },
+  "dependencies": {
+    "accounting-js": "^1.1.1",
+    "babel-plugin-rewire-exports": "^2.3.0",
+    "simplecheck": "^0.1.3"
+  }
+}
